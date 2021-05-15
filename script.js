@@ -51,8 +51,7 @@ console.log(stringsTogether(['Winc', 'Academy', 'is', 'leuk', ';-}']))
 
 // G
 combineArrays = (array1, array2) => {
-  const array3 = [].concat(array1, array2);
-  return array3;
+  return array1.concat(array2);
 }
 
 console.log(combineArrays([1,2,3], [4,5,6]))
